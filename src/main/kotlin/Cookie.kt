@@ -52,7 +52,7 @@ fun main(){
         println("${it.name}-$${it.price}")
     }
 
-
+       //H.O.F (groupBy())
     val groupedMenu = cookies.groupBy {
 
         it.softBaked
@@ -64,4 +64,8 @@ fun main(){
     crunchyMenu.forEach {
         println("${it.name} - $${it.price}")
     }
+
+    //H.O.F (fold)
+
+
 }
